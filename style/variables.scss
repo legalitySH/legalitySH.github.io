@@ -1,0 +1,13 @@
+$main-color : #0D47A1;
+
+/*Миксины*/
+@mixin button-style {
+    background-color: $main-color;
+    font-family: MontserBold;
+    padding: 15px 80px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+}
