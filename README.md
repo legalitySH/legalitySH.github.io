@@ -1,2 +1,2 @@
-# courseProject.github.io
+# legalitySH.github.io
 Course project 1 term
