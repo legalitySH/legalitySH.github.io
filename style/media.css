@@ -277,12 +277,12 @@
     font-size: 3vw;
     width: 100%;
   }
-  .aquazone .button button,
-  .gym .button button,
-  .sporthole .button button {
+  .aquazone .button a button,
+  .gym .button a button,
+  .sporthole .button a button {
     margin-top: 4vh;
-    padding: 1.5vh 4vw;
-    font-size: 2.5vh;
+    padding: 1.5vh 1vw;
+    font-size: 3vw;
   }
   .aquazone .imagezone,
   .gym .imagezone,
@@ -383,7 +383,7 @@
   .form .formfield input {
     font-size: 2.5vh;
     padding-bottom: 3vh;
-    width: 100%;
+    width: 80vw;
     color: white;
   }
   .form .formfield input::-moz-placeholder {
@@ -403,7 +403,7 @@
   .scheduleHeader {
     font-size: 3.5vh;
   }
-  .scheduleSection img {
+  .desktopSchedule {
     display: none;
   }
   .mobileSchedule {
@@ -441,7 +441,7 @@
   }
   .scheduleText p {
     font-family: Light;
-    font-size: 2.5vh;
+    font-size: 2vh;
     color: white;
     margin-left: 0;
   }

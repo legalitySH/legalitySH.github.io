@@ -331,11 +331,13 @@
             }
         }
         .button{
+            a{
             button{
                 margin-top: 4vh;
-                padding: 1.5vh 4vw;
-                font-size: 2.5vh;
+                padding: 1.5vh 1vw;
+                font-size: 3vw;
             }
+        }
         }
         .imagezone{
             margin-top: 3vh;
@@ -446,7 +448,7 @@
             input {
                 font-size: 2.5vh;
                 padding-bottom: 3vh;
-                width: 100%;
+                width: 80vw;
                 color:white;
             }
 
@@ -472,10 +474,8 @@
         font-size: 3.5vh;
     }
 
-    .scheduleSection {
-        img {
-            display: none;
-        }
+    .desktopSchedule{
+        display: none;
     }
 
     .mobileSchedule {
@@ -518,7 +518,7 @@
 
         p {
             font-family: Light;
-            font-size: 2.5vh;
+            font-size: 2vh;
             color: white;
             margin-left: 0;
         }

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table>
+
+    <cell>
+        <time>09:00-10:30</time>
+        <event>Хатха-йога</event>
+        <position>10</position>
+    </cell>
+
+    <cell>
+        <time>09:00-10:30</time>
+        <event>Хатха-йога</event>
+        <position>12</position>
+    </cell>
+
+    <cell>
+        <time>10:30-11:30</time>
+        <event>Пилатес+Мяч</event>
+        <position>18</position>
+    </cell>
+
+    <cell>
+        <time>10:30-11:30</time>
+        <event>Пилатес+Мяч</event>
+        <position>20</position>
+    </cell>
+
+    <cell>
+        <time>18:00-19:00</time>
+        <event>Пилатес+Мяч</event>
+        <position>26</position>
+    </cell>
+
+    <cell>
+        <time>18:00-19:00</time>
+        <event>Йогалатес</event>
+        <position>28</position>
+    </cell>
+
+    <cell>
+        <time>18:00-19:00</time>
+        <event>Пилатес+Мяч</event>
+        <position>29</position>
+    </cell>
+
+    <cell>
+
+        <time>18:00-19:00</time>
+        <event>Йогалатес</event>
+        <position>34</position>
+    </cell>
+
+    <cell>
+        <time>18:00-19:00</time>
+        <event>Пилатес+Мяч</event>
+        <position>35</position>
+    </cell>
+
+    <cell>
+        <time>19:00-20:00</time>
+        <event>Пилатес+Мяч</event>
+        <position>36</position>
+    </cell>
+
+    <cell>
+        <time>19:00-20:00</time>
+        <event>Пилатес+Мяч</event>
+        <position>37</position>
+    </cell>
+
+    <cell>
+        <time>19:00-20:00</time>
+        <event>Пилатес+Мяч</event>
+        <position>38</position>
+    </cell>
+
+    <cell>
+        <time>20:00-21:00</time>
+        <event>Фит-йога</event>
+        <position>42</position>
+    </cell>
+
+    <cell>
+        <time>20:00-21:00</time>
+        <event>Фит-йога</event>
+        <position>44</position>
+    </cell>
+
+    <cell>
+        <time>20:00-21:00</time>
+        <event>Фит-йога</event>
+        <position>46</position>
+    </cell>
+
+    <cell>
+        <time>17:30-18:30</time>
+        <event>Единоборства(6-16 лет)</event>
+        <position>50</position>
+    </cell>
+
+    <cell>
+        <time>17:30-18:30</time>
+        <event>Единоборства(6-16 лет)</event>
+        <position>52</position>
+    </cell>
+
+    <cell>
+        <time>17:30-18:30</time>
+        <event>Единоборства(6-16 лет)</event>
+        <position>54</position>
+    </cell>
+
+    <cell>
+        <time>18:45-19:30</time>
+        <event>Акваэробика</event>
+        <position>67</position>
+    </cell>
+
+    <cell>
+        <time>18:45-19:30</time>
+        <event>Акваэробика</event>
+        <position>69</position>
+    </cell>
+
+    <cell>
+        <time>18:45-19:30</time>
+        <event>Акваэробика</event>
+        <position>75</position>
+    </cell>
+
+    <cell>
+        <time>18:45-19:30</time>
+        <event>Акваэробика</event>
+        <position>77</position>
+    </cell>
+
+</table>
