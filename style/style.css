@@ -29,6 +29,13 @@ body h1 {
   font-family: MontserBold;
 }
 
+#back-to-start {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: absolute;
+}
+
 .content__blue {
   background-color: #0D47A1;
   width: 100%;

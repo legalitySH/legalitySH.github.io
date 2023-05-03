@@ -34,6 +34,13 @@ body {
     }
 }
 
+#back-to-start{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+}
+
 .content__blue {
     background-color: $main-color;
     width: 100%;

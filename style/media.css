@@ -61,7 +61,7 @@
     text-decoration: none;
     color: white;
     font-family: Light;
-    font-size: 2.5vh;
+    font-size: 4vw;
     text-align: center;
   }
   .wrap__burger__buttons ul li {
@@ -186,13 +186,13 @@
   .gift button {
     background-color: white;
     font-family: MontserBold;
-    padding: 1.5vh 5vw;
+    padding: 1.5vh 20vw;
     font-size: 3vh;
     text-align: center;
     color: #0D47A1;
     border-radius: 10px;
     border: 0;
-    margin-left: 30vw;
+    margin-left: 16%;
     margin-bottom: 10%;
   }
   .gift button:hover {
@@ -249,7 +249,7 @@
     width: 4vh;
   }
   .container .ourservices {
-    font-size: 3vh;
+    font-size: 4vw;
     width: 50%;
   }
   .aquazone,
@@ -267,14 +267,14 @@
   .gym .discription h1,
   .sporthole .discription h1 {
     margin-top: 2vh;
-    font-size: 3vh;
+    font-size: 4vw;
     text-align: center;
   }
   .aquazone .discription p,
   .gym .discription p,
   .sporthole .discription p {
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 3vw;
     width: 100%;
   }
   .aquazone .button button,
@@ -383,7 +383,7 @@
   .form .formfield input {
     font-size: 2.5vh;
     padding-bottom: 3vh;
-    width: 60vw;
+    width: 100%;
     color: white;
   }
   .form .formfield input::-moz-placeholder {
