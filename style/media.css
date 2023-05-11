@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Для устройств с шириной экрана менее 480px */
-/*Миксины*/
 @media screen and (max-width: 768px) {
   .container {
     width: 90%;
@@ -100,7 +99,7 @@
   .spa__container .spa__discription .discription__content .spa__button button {
     background-color: #0D47A1;
     font-family: MontserBold;
-    padding: 15px 80px;
+    padding: 1vh 8vw;
     font-size: 20px;
     text-align: center;
     color: white;
@@ -116,6 +115,9 @@
   .spa__container .spa__image img {
     width: 100%;
   }
+  .trainers {
+    padding-bottom: 30vh;
+  }
   .trainers h1 {
     font-size: 3.5vh;
   }
@@ -125,7 +127,7 @@
     text-align: justify;
   }
   .trainers .trainer {
-    gap: 10vh;
+    gap: 50vh;
     flex-direction: column;
     margin-left: 25vw;
   }
@@ -146,18 +148,18 @@
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    margin-left: 20vw;
   }
-  .servicelist .services figure figcaption {
-    font-family: Medium;
-    font-size: 5vw;
-    width: 45vw;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  .servicelist .services figure {
+    background-color: white;
   }
   .servicelist .services figure img {
-    max-width: 50vw;
+    width: 50vw;
+    height: 45vh;
+  }
+  .servicelist .services figure figcaption {
+    font-size: 3vh;
+    color: #0D47A1;
+    font-family: Medium;
   }
   .gift {
     flex-wrap: wrap-reverse;
@@ -276,6 +278,17 @@
     text-align: center;
     font-size: 3vw;
     width: 100%;
+  }
+  .aquazone .imagezone,
+  .gym .imagezone,
+  .sporthole .imagezone {
+    padding-bottom: 4vw;
+  }
+  .aquazone .imagezone img,
+  .gym .imagezone img,
+  .sporthole .imagezone img {
+    width: 60vw;
+    height: 40vw;
   }
   .aquazone .button a button,
   .gym .button a button,

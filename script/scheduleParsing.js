@@ -32,18 +32,6 @@ let table = (arr_tag, arr) => {
             i++;
         }
       })
-    //   for (let i = 0; i < ways_arr.length; i++) {
-       
-    //     document.querySelector('.table').insertAdjacentHTML("beforeend",
-  
-    //           `<div class="rows">
-    //               <p class="time">${times_arr[i]}</p>
-    //               <img class="trainImg" src="${train_imgs_arr[i]}">
-    //               <p class="way">${ways_arr[i]}</p>
-    //           </div>`
-  
-    //     );
-    //   }
     })
   
     async function parseXML() {

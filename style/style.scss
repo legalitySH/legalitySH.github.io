@@ -34,7 +34,7 @@ body {
     }
 }
 
-#back-to-start{
+#back-to-start {
     margin: 0;
     padding: 0;
     border: 0;
@@ -217,6 +217,7 @@ body {
         font-size: 1.8vw;
     }
 
+
     p {
         padding: 40px 0 40px 0;
         font-family: Light;
@@ -229,10 +230,11 @@ body {
         margin-top: 20px;
         text-align: center;
         gap: 2vw;
-        padding-bottom: 2vh;
+        padding-bottom: 16vh;
 
         div {
             width: 18vw;
+            height: 20vw;
         }
 
         figure {
@@ -251,7 +253,6 @@ body {
 }
 
 .servicelist {
-    padding-bottom: 4vh;
 
     h1 {
         padding: 4vh 4vw;
@@ -261,33 +262,32 @@ body {
         font-size: 1.8vw;
         width: 10%;
     }
-
     .services {
         margin-top: 20px;
-        gap: 5vw;
+        justify-content: space-between;
         text-align: center;
-
-        div {
-            width: 16vw;
+        figure{
+            background-color: $main-color;
+            img{
+                width: 18vw;
+                height: 20vw;
+            }
+            figcaption{
+                margin-top: 1vw;
+                font-size: 1.4vw;
+                padding-bottom: 1vw;
+            }
         }
-
-        figure {
-            img {
-                height: 60%;
-                max-width: 100%;
+        figure:hover{
+            transition: all 0.2s ease 0s;
+            padding: 2px;
+            cursor: pointer;
             }
-
-            figcaption {
-                width: 100%;
-                font-size: 1.7vw;
-                color: $main-color;
-            }
-
         }
     }
-}
 
 .gift {
+    margin-top: 4vw;
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
@@ -382,10 +382,10 @@ body {
     }
 }
 
-    .questions {
+.questions {
     margin-top: 8vh;
 
-    .question{
+    .question {
         p {
             margin-top: 20px;
             font-family: Medium;
@@ -473,8 +473,9 @@ footer {
             width: 2.5vw;
             margin-left: 4px;
         }
-        img:hover{
-           width: 2.6vw;
+
+        img:hover {
+            width: 2.6vw;
         }
     }
 }
@@ -521,7 +522,7 @@ footer {
             color: $main-color;
             padding: 1vw 8vw;
             margin-left: 5vw;
-            margin-top: 15vw;
+            margin-top: 10vw;
             font-size: 1.2vw
         }
 
@@ -536,8 +537,9 @@ footer {
 
     .imagezone {
         img {
-            margin-left:5vw;
-            width: 100%;
+            margin-left: 5vw;
+            height: 25vw;
+            width: 50vw;
             max-width: 100%;
         }
     }
@@ -600,6 +602,7 @@ footer {
 
     .discription {
         margin-top: 5vh;
+
         h1 {
             font-family: MontserBold;
             font-size: 2vw;
@@ -744,53 +747,61 @@ footer {
     display: none;
 }
 
-.desktopSchedule{
-    .container{
-    table{
-        margin-top: 10vw;
-        width: inherit;
-        border: 1px solid $main-color;
-        td{
-            font-size: Medium;
-            color:black;
-            font-size: 1.2vw;
-            height: 10vh;
-            width: 10vw;
-            text-align: center;
-            .active {
-                width: 100%;
-                height: 100%;
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
-                .time{
-                    margin-top: 2vw;
-                    color: white;
-                    opacity: 0.7;
-                }
-                .event{
-                    color: $main-color;
-                    font-family: Medium;
-                    color: white;
-                    font-size: 1.1vw;
-                    padding-bottom: 40px;
-                }
-                background-color: $main-color;
-            }
-        }
-        tr:nth-child(odd){
-            background-color: #F0F0F0;
-        }
-        tr:nth-child(even){
-            background-color: rgb(187, 228, 252);
-        }
-        tr:nth-child(1){
-            td{
-                height: 0.3vh;
-            }
-        }
+.desktopSchedule {
+    .container {
+        table {
+            margin-top: 10vw;
+            width: inherit;
+            border: 1px solid $main-color;
 
+            td {
+                font-size: Medium;
+                color: black;
+                font-size: 1.2vw;
+                height: 10vh;
+                width: 10vw;
+                text-align: center;
+
+                .active {
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    .time {
+                        margin-top: 2vw;
+                        color: white;
+                        opacity: 0.7;
+                    }
+
+                    .event {
+                        color: $main-color;
+                        font-family: Medium;
+                        color: white;
+                        font-size: 1.1vw;
+                        padding-bottom: 40px;
+                    }
+
+                    background-color: $main-color;
+                }
+            }
+
+            tr:nth-child(odd) {
+                background-color: #F0F0F0;
+            }
+
+            tr:nth-child(even) {
+                background-color: rgb(187, 228, 252);
+            }
+
+            tr:nth-child(1) {
+                td {
+                    height: 0.3vh;
+                }
+            }
+
+        }
     }
-}
 }

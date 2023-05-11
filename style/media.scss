@@ -134,6 +134,7 @@
     }
 
     .trainers {
+        padding-bottom: 30vh;
         h1{
             font-size: 3.5vh;
         }
@@ -143,7 +144,7 @@
             text-align: justify;
         }
         .trainer{
-            gap: 10vh;
+            gap: 50vh   ;
             flex-direction: column;
             margin-left: 25vw;
             figure{
@@ -170,18 +171,16 @@
         display: flex;
         flex-direction: column;
         gap: 10vh;
-        margin-left: 20vw;
         figure{
-            figcaption{
-                font-family: Medium;
-                font-size: 5vw;
-                width: 45vw;
-                margin: 0;
-                padding: 0;
-                text-align: center;
-            }
+            background-color: white;
             img{
-                max-width: 50vw;
+                width: 50vw;
+                height: 45vh;
+            }
+            figcaption{
+                font-size: 3vh;
+                color: $main-color;
+                font-family: Medium;
             }
         }
     }
@@ -329,6 +328,13 @@
                 font-size: 3vw;
                 width: 100%;
             }
+        }
+        .imagezone{
+            img{
+                width: 60vw;
+                height: 40vw;
+            }
+            padding-bottom: 4vw;
         }
         .button{
             a{
